@@ -1,14 +1,14 @@
-package controllers;
+package com.ingressou.Ingressou.controllers;
 
-import dto.ProductRecordDto;
+import com.ingressou.Ingressou.dto.ProductRecordDto;
 import jakarta.validation.Valid;
-import models.ProductModel;
+import com.ingressou.Ingressou.models.ProductModel;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import repositories.ProductRepository;
+import com.ingressou.Ingressou.repositories.ProductRepository;
 
 import java.util.List;
 import java.util.Optional;

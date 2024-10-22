@@ -1,6 +1,6 @@
-package repositories;
+package com.ingressou.Ingressou.repositories;
 
-import models.ProductModel;
+import com.ingressou.Ingressou.models.ProductModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

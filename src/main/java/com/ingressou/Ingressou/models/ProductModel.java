@@ -1,4 +1,4 @@
-package models;
+package com.ingressou.Ingressou.models;
 
 import jakarta.persistence.*;
 
